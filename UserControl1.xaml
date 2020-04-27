@@ -1,0 +1,20 @@
+﻿<UserControl x:Name="Accuieil" x:Class="Bdd_Cooking.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Bdd_Cooking"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="Accueil">
+        <Grid.Background>
+            <ImageBrush ImageSource="cooking .jpg"/>
+        </Grid.Background>
+        <Label Content="Cooking" HorizontalAlignment="Left" Margin="253,142,0,0" VerticalAlignment="Top" Height="145" Width="289" FontSize="72" FontFamily="Tempus Sans ITC" FontWeight="Bold"/>
+
+        <Button Content="Login" Command="{Binding AjouterClient}"  HorizontalAlignment="Left" Margin="368,244,0,0" VerticalAlignment="Top" Width="75" FontSize="24"/>
+        
+
+
+    </Grid>
+</UserControl>
